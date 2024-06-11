@@ -1,5 +1,6 @@
-import { fireEvent, render, screen } from "@testing-library/react";
+import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import Home from "./index";
+import e from "express";
 
 describe("When Form is created", () => {
   it("a list of fields card is displayed", async () => {
@@ -24,21 +25,32 @@ describe("When Form is created", () => {
       await screen.findByText("Message envoyé !");
     });
   });
-
 });
 
-
 describe("When a page is created", () => {
-  it("a list of events is displayed", () => {
-    // to implement
-  })
-  it("a list a people is displayed", () => {
-    // to implement
-  })
+  it("a list of events is displayed", async () => {
+    render(<Home />);
+    expect(screen.getByTestId("listEvents-testid")).toBeInTheDocument();
+    waitFor(() => {
+      expect(screen.getAllByTestId("card-testid")).toBeGreaterThanOrEqual(1);
+    });
+  });
+  it("a list a people is displayed", async () => {
+    render(<Home />);
+    waitFor(() => {
+      expect(screen.getAllByTestId("peopleCard-testid")).toBeGreaterThanOrEqual(
+        1
+      );
+    });
+  });
   it("a footer is displayed", () => {
-    // to implement
-  })
-  it("an event card, with the last event, is displayed", () => {
-    // to implement
-  })
+    render(<Home />);
+    expect(screen.getByTestId("footer-testid")).toBeInTheDocument();
+  });
+  it("an event card, with the last event, is displayed", async () => {
+    render(<Home />);
+    waitFor(() => {
+      expect(screen.getByTestId("lastEvent-testid")).toBeInTheDocument();
+    });
+  });
 });
