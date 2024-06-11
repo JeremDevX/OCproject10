@@ -118,7 +118,7 @@ const Page = () => {
           </Modal>
         </div>
       </main>
-      <footer className="row">
+      <footer className="row" data-testid="footer-testid">
         <div className="col presta">
           <h3>Notre derniére prestation</h3>
           {last === undefined ? (
@@ -130,6 +130,7 @@ const Page = () => {
               date={new Date(last?.date)}
               small
               label={last?.type}
+              data-testid="lastEvent-testid"
             />
             // If the card should be clickable, surround it with a Modal like in the EventsContainer
             // Else, set the pointer to default
