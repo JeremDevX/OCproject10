@@ -131,6 +131,8 @@ const Page = () => {
               small
               label={last?.type}
             />
+            // If the card should be clickable, surround it with a Modal like in the EventsContainer
+            // Else, set the pointer to default
           )}
         </div>
         <div className="col contact">
