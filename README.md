@@ -1,15 +1,13 @@
-# 724 Events
+###Projet 10 de la formation Intégrateur Web d’Openclassrooms
 
-## Description
-L'application est le site d'une agence evenementielle.
-## Pre-requis
-- NodeJS  >= v16.14.1
+##Débuggez le site d’une agence d’événementiel
 
-## Installation
-- `yarn install`
+Ce projet vise à développer des compétences essentielles en débogage et en développement web. Il apprends également à rédiger un cahier de recette pour détailler les scénarios de test.
 
-## Lancement de l'application
-- `yarn start`
-
-## Tests
-- `yarn test`
+Outils utilisés :
+	- Outils de développement des navigateurs ( Mozilla et Chrome )
+	- ReactDevTools
+	- Yarn
+	- Jest
+	- Cahier de recette
+	- GitHub
