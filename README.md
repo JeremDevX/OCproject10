@@ -2,7 +2,7 @@
 
 ## Débuggez le site d’une agence d’événementiel
 
-Ce projet vise à développer des compétences essentielles en débogage et en développement web. Il apprends également à rédiger un cahier de recette pour détailler les scénarios de test.
+Ce projet vise à développer des compétences essentielles en débogage et en développement web. Il apprend également à rédiger un cahier de recette pour détailler les scénarios de test.
 
 Outils utilisés :
 - Outils de développement des navigateurs ( Mozilla et Chrome )
@@ -11,3 +11,6 @@ Outils utilisés :
 - Jest
 - Cahier de recette
 - GitHub
+
+
+[Lien vers le projet](https://oc-project-10.vercel.app/)
