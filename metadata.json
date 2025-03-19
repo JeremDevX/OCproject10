@@ -1,0 +1,6 @@
+{
+  "description": {
+    "fr": "<h2>Debugging</h2> <h3>Description</h3> <p>Projet réalisé dans le cadre de la formation Intégrateur Web d’OpenClassrooms, centré sur le débogage et la rédaction d’un cahier de recette complet détaillant les scénarios de test.</p>\n<h3>Fonctionnalités principales :</h3>\n<ul>\n<li>Débogage approfondi de sites web</li>\n<li>Rédaction et suivi d’un cahier de recette</li>\n<li>Mise en place et exécution de scénarios de test</li>\n<li>Utilisation efficace des outils de développement navigateur</li>\n</ul>\n<h3>Technologies utilisées :</h3>\n<ul>\n<li>Outils développeurs navigateurs (Mozilla, Chrome)</li>\n<li>React DevTools</li>\n<li>Jest (tests unitaires)</li>\n\n</ul>",
+    "en": "<h2>Debugging</h2>\n<h3>Description</h3> <p>Project carried out as part of OpenClassrooms’ Web Integrator training, focused on debugging and creating a detailed test plan (cahier de recette).</p>\n<h3>Key features:</h3>\n<ul>\n<li>In-depth web debugging techniques</li>\n<li>Writing and managing detailed test scenarios</li>\n<li>Executing structured testing plans</li>\n<li>Effective use of browser developer tools</li>\n</ul>\n<h3>Built with :</h3>\n<ul>\n<li>Browser Developer Tools (Mozilla, Chrome)</li>\n<li>React DevTools</li>\n\n<li>Jest (unit testing)</li>\n\n</ul>"
+  }
+}
